@@ -202,13 +202,12 @@ const LivingBrandIndicator = ({
         />
 
         {/* Main icon */}
-        <Terminal 
+        <img 
+          src="/logo.png"
+          alt="Logo"
           className={cn(
-            "w-8 h-8 transition-colors duration-300",
-            accentColor === "primary" && "text-primary",
-            accentColor === "safe" && "text-safe",
-            accentColor === "suspicious" && "text-suspicious",
-            accentColor === "dangerous" && "text-dangerous"
+            "w-8 h-8 transition-opacity duration-300 object-contain",
+            accentColor !== "primary" && "opacity-80" // slight dim if not primary since we can't easily recolor a PNG with classes like we can an SVG
           )} 
         />
 

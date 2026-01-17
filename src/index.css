@@ -7,7 +7,7 @@
 @layer base {
   :root {
     /* Terminal Noir Theme - Electric Green on Deep Black */
-    --background: 0 0% 4%;
+    --background: 0 0% 0%;
     --foreground: 120 60% 95%;
 
     --card: 0 0% 6%;
@@ -68,7 +68,7 @@
   }
 
   .dark {
-    --background: 0 0% 4%;
+    --background: 0 0% 0%;
     --foreground: 120 60% 95%;
     --card: 0 0% 6%;
     --card-foreground: 120 60% 95%;
